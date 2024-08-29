@@ -10,7 +10,8 @@ DATA_URL = (
 
 st.title("Motor Vehilcle Collisions in New York City")
 st.markdown("This application is a Streamlit dashboard that can be used "
-"to analyze motor vehicle collisions in NYC💥🏎️")
+"to analyze motor vehicle collisions in NYC")
+st.markdown("A project by Avilash Barua")
 
 @st.cache_data(persist=True)
 def load_data(nrows):
